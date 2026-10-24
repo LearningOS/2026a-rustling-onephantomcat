@@ -5,6 +5,8 @@
 
 
 const NUMBER: i32 = 3;
+const DOUBLE_NUMBER: i32 = NUMBER * 2;
 fn main() {
     println!("Number {}", NUMBER);
+    println!("Double number {}", DOUBLE_NUMBER);
 }

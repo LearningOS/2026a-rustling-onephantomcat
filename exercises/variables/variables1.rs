@@ -7,6 +7,12 @@
 
 
 fn main() {
-    let x = 5;
-    println!("x has the value {}", x);
+    let x = 8;
+    println!("第一次：{}", x);
+
+    let x = x + 2;
+    println!("第二次：{}", x);
+
+    let x = x * 3;
+    println!("第三次：{}", x);
 }
